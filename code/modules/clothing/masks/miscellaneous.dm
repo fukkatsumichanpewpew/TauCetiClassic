@@ -19,7 +19,7 @@
 
 /obj/item/clothing/mask/surgical
 	name = "sterile mask"
-	desc = "A sterile mask designed to help prevent the spread of diseases."
+	desc = "Стерильная маска, предназначенная для предотвращения распространения заболеваний."
 	icon_state = "sterile"
 	item_state = "m_mask"
 	w_class = SIZE_TINY
