@@ -22,14 +22,14 @@
 			gas_transfer_coefficient = 1 //gas is now escaping to the turf and vice versa
 			flags &= ~(MASKCOVERSMOUTH | MASKINTERNALS)
 			icon_state = "[initial(icon_state)]down"
-			to_chat(usr, "Your mask is now hanging on your neck.")
+			to_chat(usr, "Вы опустили маску на шею.")
 
 		else
 			src.hanging = !src.hanging
 			gas_transfer_coefficient = 0.10
 			flags |= MASKCOVERSMOUTH | MASKINTERNALS
 			icon_state = initial(icon_state)
-			to_chat(usr, "You pull the mask up to cover your face.")
+			to_chat(usr, "Вы натянули маску на лицо, закрывая его целиком.")
 		update_inv_mob()
 		update_item_actions()
 
