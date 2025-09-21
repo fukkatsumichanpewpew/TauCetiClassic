@@ -16,19 +16,6 @@
 		..()
 	return
 
-
-/obj/item/clothing/mask/surgical
-	name = "sterile mask"
-	desc = "Стерильная маска, предназначенная для предотвращения распространения заболеваний."
-	icon_state = "sterile"
-	item_state = "m_mask"
-	w_class = SIZE_TINY
-	flags = MASKCOVERSMOUTH
-	body_parts_covered = 0
-	gas_transfer_coefficient = 0.90
-	permeability_coefficient = 0.01
-	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 25, rad = 0)
-
 /obj/item/clothing/mask/fakemoustache
 	name = "fake moustache"
 	desc = "Warning: moustache is fake."
@@ -118,9 +105,6 @@
 		to_chat(user, "You pull the scarf up to cover your face.")
 	update_inv_mob()
 	update_item_actions()
-
-
-
 
 /obj/item/clothing/mask/scarf/ninja
 	name = "ninja scarf"
