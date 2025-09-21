@@ -13,7 +13,7 @@
 
 /obj/item/clothing/mask/surgical/attack_self(mob/user)
 
-	if(user.incapacitated())
+	if(!user.incapacitated())
 		if(!src.hanging)
 			src.hanging = !src.hanging
 			gas_transfer_coefficient = 0.90
@@ -27,6 +27,6 @@
 			permeability_coefficient = 0.01
 			flags |= MASKCOVERSMOUTH
 			icon_state = "[initial(icon_state)]"
-			to_chat(usr, "Вы натянули маску на лицо, закрывая его целиком.")
+			to_chat(user, "Вы натянули маску на лицо, закрывая его целиком.")
 		update_inv_mob()
 		update_item_actions()
