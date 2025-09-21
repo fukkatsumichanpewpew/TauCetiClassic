@@ -75,7 +75,7 @@
 //Masks
 /obj/item/weapon/storage/box/masks
 	name = "box of sterile masks"
-	desc = "This box contains masks of sterility."
+	desc = "В коробке находятся стерильные маски."
 	icon_state = "sterile_mask_box"
 
 /obj/item/weapon/storage/box/masks/atom_init()
