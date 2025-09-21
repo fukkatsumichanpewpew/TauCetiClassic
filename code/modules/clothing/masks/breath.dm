@@ -28,7 +28,7 @@
 			src.hanging = !src.hanging
 			gas_transfer_coefficient = 0.10
 			flags |= MASKCOVERSMOUTH | MASKINTERNALS
-			icon_state = initial(icon_state)
+			icon_state = "[initial(icon_state)]"
 			to_chat(usr, "Вы натянули маску на лицо, закрывая его целиком.")
 		update_inv_mob()
 		update_item_actions()
