@@ -1,6 +1,6 @@
 /obj/item/clothing/mask/breath
-	desc = "A close-fitting mask that can be connected to an air supply."
 	name = "breath mask"
+	desc = "Плотно прилегающая маска, которую можно подключить к системе подачи воздуха."
 	icon_state = "breath"
 	item_state = "b_mask"
 	flags = MASKCOVERSMOUTH | MASKINTERNALS
