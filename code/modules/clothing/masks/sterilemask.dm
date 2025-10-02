@@ -1,8 +1,9 @@
-/obj/item/clothing/mask/surgical
+/obj/item/clothing/mask/sterile
 	name = "sterile mask"
 	desc = "Стерильная маска, предназначенная для предотвращения распространения заболеваний."
-	icon_state = "sterile"
+	icon_state = "sterileup"
 	item_state = "m_mask"
+	item_state_world = "sterile"
 	w_class = SIZE_TINY
 	flags = MASKCOVERSMOUTH
 	body_parts_covered = 0
@@ -11,7 +12,7 @@
 /datum/action/item_action/hands_free/adjust_mask
 	name = "Adjust mask"
 
-/obj/item/clothing/mask/surgical/attack_self(mob/user)
+/obj/item/clothing/mask/sterile/attack_self(mob/user)
 
 	if(!user.incapacitated())
 		if(!src.hanging)
@@ -26,7 +27,7 @@
 			gas_transfer_coefficient = 0.90
 			permeability_coefficient = 0.01
 			flags |= MASKCOVERSMOUTH
-			icon_state = "[initial(icon_state)]"
+			icon_state = "[initial(icon_state)]up"
 			to_chat(user, "Вы натянули маску на лицо, закрывая его целиком.")
 		update_inv_mob()
 		update_item_actions()
