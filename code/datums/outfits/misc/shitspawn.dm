@@ -125,7 +125,7 @@
 	uniform = /obj/item/clothing/under/overalls
 	shoes = /obj/item/clothing/shoes/white
 	gloves = /obj/item/clothing/gloves/latex
-	mask = /obj/item/clothing/mask/surgical
+	mask = /obj/item/clothing/mask/sterile
 	head = /obj/item/clothing/head/welding
 	l_ear = /obj/item/device/radio/headset
 	glasses = /obj/item/clothing/glasses/thermal/monocle
