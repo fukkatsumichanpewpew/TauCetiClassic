@@ -128,7 +128,7 @@
 
 	uniform =/obj/item/clothing/under/rank/virologist
 	uniform_f = /obj/item/clothing/under/rank/virologist/skirt
-	mask = /obj/item/clothing/mask/surgical
+	mask = /obj/item/clothing/mask/sterile
 	shoes = /obj/item/clothing/shoes/white
 	suit = /obj/item/clothing/suit/storage/labcoat/virologist
 
