@@ -7,7 +7,7 @@
 	icon_opened = "barbersecure_open"
 
 /obj/structure/closet/secure_closet/barber/PopulateContents()
-	new /obj/item/clothing/mask/surgical(src) // These three are here, so the barber can pick and choose what he's painting.
+	new /obj/item/clothing/mask/sterile(src) // These three are here, so the barber can pick and choose what he's painting.
 	new /obj/item/clothing/head/surgery/blue(src)
 	new /obj/item/clothing/suit/surgicalapron(src)
 	new /obj/item/clothing/accessory/tie/waistcoat(src)
