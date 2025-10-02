@@ -14,7 +14,7 @@
 				score = 30
 			if(M.wear_mask)
 				score += 5
-				if(istype(M:wear_mask, /obj/item/clothing/mask/surgical) && !M.internal)
+				if(istype(M:wear_mask, /obj/item/clothing/mask/sterile) && !M.internal)
 					score += 10
 			if(istype(M:wear_suit, /obj/item/clothing/suit/space) && istype(M:head, /obj/item/clothing/head/helmet/space))
 				score += 20
