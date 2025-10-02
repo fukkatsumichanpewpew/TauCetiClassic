@@ -498,7 +498,7 @@ var/global/list/all_supply_groups = list("Operations","Security","Hospitality","
 					/obj/item/device/taperecorder,
 					/obj/item/clothing/gloves/latex,
 					/obj/item/clothing/suit/storage/labcoat,
-					/obj/item/clothing/mask/surgical,
+					/obj/item/clothing/mask/sterile,
 					/obj/item/weapon/storage/box/evidence,
 					/obj/item/weapon/storage/box/swabs,
 					/obj/item/weapon/forensic_sample_kit,
