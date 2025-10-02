@@ -81,7 +81,7 @@
 /obj/item/weapon/storage/box/masks/atom_init()
 	. = ..()
 	for(var/i in 1 to 7)
-		new /obj/item/clothing/mask/surgical(src)
+		new /obj/item/clothing/mask/sterile(src)
 
 //Syringes
 /obj/item/weapon/storage/box/syringes
