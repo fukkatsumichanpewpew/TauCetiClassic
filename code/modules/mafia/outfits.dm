@@ -105,7 +105,7 @@
 	uniform = /obj/item/clothing/under/overalls
 	shoes = /obj/item/clothing/shoes/white
 	gloves = /obj/item/clothing/gloves/latex
-	mask = /obj/item/clothing/mask/surgical
+	mask = /obj/item/clothing/mask/sterile
 	suit = /obj/item/clothing/suit/apron
 
 /datum/outfit/mafia/obsessed/post_equip(mob/living/carbon/human/H)
