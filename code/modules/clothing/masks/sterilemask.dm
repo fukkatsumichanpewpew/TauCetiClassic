@@ -2,7 +2,7 @@
 	name = "sterile mask"
 	desc = "Стерильная маска, предназначенная для предотвращения распространения заболеваний."
 	icon_state = "sterile"
-	item_state = "m_mask"
+	item_state = "sterilemask"
 	item_state_world = "sterileworld"
 	w_class = SIZE_TINY
 	flags = MASKCOVERSMOUTH
