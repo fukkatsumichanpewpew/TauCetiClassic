@@ -22,7 +22,7 @@
 			gas_transfer_coefficient = 0.90
 			flags &= ~(MASKCOVERSMOUTH)
 			icon_state = "[initial(icon_state)]down"
-			to_chat(usr, "Вы опустили маску на шею.")
+			to_chat(user, "Вы опустили маску на шею.")
 
 		else
 			src.hanging = !src.hanging
