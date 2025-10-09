@@ -16,20 +16,20 @@
 
 /obj/item/clothing/mask/breath/attack_self()
 
-	if(!user.incapacitated())
+	if(!usr.incapacitated())
 		if(!src.hanging)
 			src.hanging = !src.hanging
 			gas_transfer_coefficient = 1 //gas is now escaping to the turf and vice versa
 			flags &= ~(MASKCOVERSMOUTH | MASKINTERNALS)
 			icon_state = "[initial(icon_state)]down"
-			to_chat(user, "Вы опустили маску на шею.")
+			to_chat(usr, "Вы опустили маску на шею.")
 
 		else
 			src.hanging = !src.hanging
 			gas_transfer_coefficient = 0.10
 			flags |= MASKCOVERSMOUTH | MASKINTERNALS
 			icon_state = "[initial(icon_state)]"
-			to_chat(user, "Вы натянули маску на лицо, закрывая его целиком.")
+			to_chat(usr, "Вы натянули маску на лицо, закрывая его целиком.")
 		update_inv_mob()
 		update_item_actions()
 
